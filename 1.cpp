@@ -1,10 +1,12 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int x;
-    cout<<"enter amount: "<<endl;
-    cin>>x;
-    for
+    int i;
+    for(i=0;i<=100;i++){
+        if(i%2!=0){
+            cout<<i<<endl;
+        }
+    }
+    
     return 0;
-
 }
