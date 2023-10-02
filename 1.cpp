@@ -1,12 +1,17 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int i;
-    for(i=0;i<=100;i++){
-        if(i%2!=0){
-            cout<<i<<endl;
+    int n;
+    cout<<"enter no. of rows i.e n: "<<endl;
+    cin>>n;
+    int k=1;
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            cout<<k<<" ";
+            
         }
+        k++;
+        cout<<endl;
     }
-    
     return 0;
 }

@@ -1,8 +1,21 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 int main(){
-int a = 18; int b = 12;
-bool t = (a > 20 && b < 15)? true : false;
-cout <<"Value of t: " << t ;
-return 0;
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++)
+            cout<<"*";
+            cout<<endl;
+        }
+    
+        for(int i=1;i<=n-1;i++){
+            for(int j=1;j<=n-i;j++)
+            cout<<"*";
+            cout<<endl;
+        
+        }
+         
+    
+    return 0;
 }
