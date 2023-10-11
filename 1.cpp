@@ -1,12 +1,18 @@
 #include<iostream>
 using namespace std;
+int square(int x){
+    int sq = x*x;
+   return sq;
+}
 int main(){
-    int i;
-    for(i=0;i<=100;i++){
-        if(i%2!=0){
-            cout<<i<<endl;
-        }
+    int n;
+    cout<<"enter n: "<<endl;
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        cout<<square(i);
+        cout<<endl;
     }
     
+
     return 0;
 }
